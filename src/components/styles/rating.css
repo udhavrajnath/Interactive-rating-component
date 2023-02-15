@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Overpass:ital,wght@0,400;1,500&display=swap');
+
+.RatingBox{
+    width: 25%;
+    height: 50%;
+    background-color: hsl(213, 19%, 18%);
+    display: grid;
+    grid-template-rows: 20% 40% 20% 20%;
+    padding: 25px 25px 25px 25px;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    border-radius: 35px;
+}
+.starLogo{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 20%;
+    align-items: center;
+}
+.starBox{
+    width: 70%;
+    background-color:  #85859c2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 70%;
+    margin-left: 12px;
+    border: none;
+
+}
+.desc{
+    background-color: transparent;
+    text-align: left;
+    padding-left: 12px;
+}
+#title{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+}
+#desc{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.RatingNum{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    align-items: center;
+
+}
+#number{
+    width: 70%;
+    height: 70%;
+    background-color:   #85859c2d;
+    margin-left: 12px;
+    border-radius: 50%;
+    border: none;
+    color:  hsl(216, 12%, 54%);
+}
+#numberSelected{
+    width: 70%;
+    height: 70%;
+    background-color:   hsl(217, 12%, 63%);
+    margin-left: 12px;
+    border-radius: 50%;
+    border: none;
+    color:  white;
+}
+#number:hover{
+    cursor: pointer;
+    background-color:hsl(25, 97%, 53%) ;
+    color: white;
+}
+
+.submit{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+#submitbtn{
+    width: 100%;
+    height: 60%;
+    color: white;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+#submitbtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
